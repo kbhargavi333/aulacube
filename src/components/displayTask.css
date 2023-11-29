@@ -57,7 +57,7 @@
     background-color: #2980b9;
 }
 .maindisplaytask{
-    background-image: url('C:\Users\lenovo\Desktop\Taskmanagement\task\src\image3.png');
+    background-image: url('../images/image3.png');
     background-repeat: no-repeat;
     background-position: left;
     background-size: 30%;
