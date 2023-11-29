@@ -1,0 +1,39 @@
+
+.addtask{
+    background-image: url('C:\Users\lenovo\Desktop\Taskmanagement\task\src\image0.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+    margin-left: 2%;
+}
+.addtaskheading{
+    font-family: cursive;
+    color: chocolate;
+}
+.inputtext,.inputtextarea,.addtaskselect,.addtasksubmit{
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.inputtextarea,.inputtext{
+    width: 20%;
+}
+.addtaskselect{
+width: 10%;
+}
+option{
+    font-family: cursive;
+}
+.addtasksubmit{
+    font-size: larger;
+    color: chocolate;
+    font-family: cursive;
+}
+.addtasklink{
+    text-decoration: none;
+}
+
+
+

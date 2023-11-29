@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 5%;
+  }
+  
+  .nav-link {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin-left: 4%;
+
+  }
+  .navtext{
+    color: #6F00FF;
+  }
+  .navabout{
+    color: #6F00FF;
+    margin-right: -1%
+  }
+  .title {
+    color: #6F00FF;
+    font-size: 17px;
+    font-family: cursive;
+    margin-left: 13%;
+  }
+  .list{
+    color: orangered;
+  }
+  @media (min-width: 576px) {
+    .nav {
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 1%;
+    }
+    
+  }
+  

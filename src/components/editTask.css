@@ -1,0 +1,83 @@
+.mainedittask{
+    background-image: url('C:\Users\lenovo\Desktop\Taskmanagement\task\src\image2.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+    margin-left: 3%;
+}
+.edittask{
+    font-family: cursive;
+    color: chocolate;
+    margin-left: 12%;
+}
+.editbutton,.deletebutton {
+    color: #0b0909; 
+    border: none;
+    font-size: large;
+    padding: 5px 8px; 
+    cursor: pointer;
+    border-radius: 4px; 
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.editbutton:hover{
+    background-color: #2980b9; 
+}
+.deletebutton:hover{
+    background-color: #2980b9;
+
+}
+.editcard {
+    box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 0 auto; 
+    margin-top: 50px; 
+    margin-left: 35%;
+}
+input{
+    width: 20%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+.updatetask,input{
+    margin-right: 1%;
+    padding: 6px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.updatecancel{
+    padding: 6px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.mainedittask{
+    margin-bottom: 1%;
+}
+.taskheading{
+    font-family: cursive;
+    color: cadetblue;
+    font-size: larger;
+    padding-top: 1%;
+}
+.edittext{
+    font-family: cursive;
+    color: indianred;
+}
+.notasksavailableedit{
+    margin-top: 15%;
+    margin-bottom: 20%;
+    font-family: cursive;
+    font-size: 25px;
+    color: cadetblue;
+    padding-left: 10%;
+}
